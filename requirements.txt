@@ -1,0 +1,11 @@
+urllib3
+ipaddress
+pandas
+googlesearch-python
+bs4
+whois
+requests
+datetime
+http.client
+flask
+joblib

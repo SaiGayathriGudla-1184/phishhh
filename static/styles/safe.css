@@ -1,0 +1,87 @@
+font-weight: 400;{
+  src: url(../fonts/kanit/kanit-v4-latin-italic.eot);
+  src: local("Kanit Italic"), local("Kanit-Italic"),
+    url(../fonts/kanit/kanit-v4-latin-italic.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/kanit/kanit-v4-latin-italic.woff2) format("woff2"),
+    url(../fonts/kanit/kanit-v4-latin-italic.woff) format("woff"),
+    url(../fonts/kanit/kanit-v4-latin-italic.ttf) format("truetype"),
+    url(../fonts/kanit/kanit-v4-latin-italic.svg#Kanit) format("svg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	font-family: 'Kanit', sans-serif;
+}
+.image-container {
+    position: absolute; /* Positioning method */
+    top: -40; /* Align to the top of the viewport */
+    left: 0; /* Align to the right of the viewport */
+    margin: 30px; /* Optional margin for spacing */
+}
+
+/* Style the image within the container */
+.image-container img {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body{
+    background-image:url('image_bg.svg') ;
+    background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+    font-weight: bold;
+    margin: 20px 0px 10px 120px;
+}
+.menu{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: #007BFF ;
+    font-size: 20px;
+    margin:10px 20px;
+}
+.menu a:hover{
+    color: Red;
+}
+.content{
+    margin: 16%;
+    position: relative;
+}
+.content h1{
+    font-size: 60px;
+    color: #007BFF;
+    margin-bottom: 30px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+    padding: 11px 20px;
+	background: rgba(0,0,0,0.25);
+    border: 2px solid #007BFF;
+    border-radius: 20px;
+}
+.content a:hover{
+    background-color:#007BFF;
+	text-color:white;
+}
+.redtext{
+    color: crimson;
+}
+.greentext{
+    color: green;
+}

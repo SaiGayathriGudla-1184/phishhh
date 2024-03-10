@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Example</title>
+</head>
+<body>
+    <form id="myForm">
+        <!-- Your form fields here -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        // JavaScript to handle form submission and redirection
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+            window.location.href = "index.html"; // Redirect to target.html
+        });
+    </script>
+</body>
+</html>

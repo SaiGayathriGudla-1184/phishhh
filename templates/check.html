@@ -1,0 +1,31 @@
+<head>
+    <title>SafeSearch</title>
+    <link rel="stylesheet" href="../static/styles/check.css">
+</head>
+<body>
+<div class="navbar">
+	<div class="image-container">
+        <img src="../static/images/Comp1.png" alt="Your Image">
+    </div>
+        <div class="logo">
+            <h1>Phish<span class="redtext">X</span>secure</h1>      
+        </div>
+        <div class="menu">
+            <a href="/index">Home</a>
+            <a href="/check">Check</a>
+            <a href="/contact">Contact Us</a>
+        </div>
+    </div>
+</body>
+   
+
+    <div class="content">
+        <center>
+        <h1>Enter the <span class="redtext">URL</span> to check</h1>
+        <form action="{{ url_for('predict')}}" method="post">
+            <input type="text" placeholder="Enter the URL here" name="url">
+            <button value="submit">Submit</button>
+        </form>
+        </center>
+    </div>
+</body>
